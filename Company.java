@@ -10,10 +10,11 @@ public class Company {
 	static String marketCap;
 	static String latestPrice;
 	
+	// Base object instance
 	Company () {
 	}
-	
-	Company(String n, String t, String pe, String m, String lp) {		// initialize strings
+	// Create instance of object class with name, tickernumber, peratio, marketcap, and latestprice
+	Company(String n, String t, String pe, String m, String lp) {	
 		name = n;
 		ticker_Number = t;
 		peRatio = pe;

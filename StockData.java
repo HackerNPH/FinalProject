@@ -227,7 +227,7 @@ public class StockData extends Application{
 		
 	}
 		
-		
+// Main class to execute start class. 		
 	public static void main (String[] args) {
 		launch(args);
 	}
